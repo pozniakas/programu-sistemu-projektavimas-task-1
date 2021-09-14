@@ -1,6 +1,6 @@
 <h1>Library</h1>
 <div>
-Laboratory work of Vilnius University student.
+1st Laboratory work of Vilnius University student.
 </div>
 <h2>Business requirements</h2>
 
