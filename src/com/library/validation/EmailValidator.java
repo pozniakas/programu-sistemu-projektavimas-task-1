@@ -88,8 +88,8 @@ public class EmailValidator {
 		for (char letter:emailArr) {
 			if (letter=='@') fistindex=count+1;
 
-			if (fistindex!=0){
-				//if (!checkLetter(letter) && letter!='-') return true;
+			if (fistindex<=count && fistindex!=0 && letter!='.'){
+				if (!checkSymbolWithHymen(letter)) return true;
 			}
 			count++;
 		}

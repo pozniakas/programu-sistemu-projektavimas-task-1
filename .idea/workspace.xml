@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf9179f-9036-4256-a3a4-b4f5734c453e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/library/validation/PasswordCharacters.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/library/validation/Validation_rule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/library/validation/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/library/validation/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/library/validation/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/library/validation/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/library/validation/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/library/validation/PhoneValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +24,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1yeCxAZqkAWPZdcAsYaCszA0YJs" />
   <component name="ProjectViewState">
@@ -42,7 +51,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.PasswordCheckerTest">
+  <component name="RunManager" selected="JUnit.PhoneValidatorTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <module name="Library" />
       <method v="2">
@@ -80,15 +89,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PhoneValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.library.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.library.validation" />
+      <option name="MAIN_CLASS_NAME" value="com.library.validation.PhoneValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.EmailValidatorTest" />
       <item itemvalue="JUnit.PasswordCheckerTest" />
+      <item itemvalue="JUnit.PhoneValidatorTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PasswordCheckerTest" />
+        <item itemvalue="JUnit.PhoneValidatorTest" />
         <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.PasswordCheckerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -102,7 +128,8 @@
       <updated>1632602918251</updated>
       <workItem from="1632602921095" duration="3125000" />
       <workItem from="1632645274981" duration="1998000" />
-      <workItem from="1632671344842" duration="14303000" />
+      <workItem from="1632671344842" duration="14434000" />
+      <workItem from="1632761275980" duration="6612000" />
     </task>
     <servers />
   </component>
@@ -119,5 +146,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
