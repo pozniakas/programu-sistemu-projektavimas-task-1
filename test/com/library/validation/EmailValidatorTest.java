@@ -36,7 +36,7 @@ class EmailValidatorTest {
 
 	@Test
 	void testEmailWithInvalidDomainValidation() {
-		String email = "earth@neegzistuojanti-svetaine.net";
+		String email = "earth@neegzistu?ojanti-svetaine.net";
 
 		assertFalse(emailValidator.isValidEmail(email));
 	}
