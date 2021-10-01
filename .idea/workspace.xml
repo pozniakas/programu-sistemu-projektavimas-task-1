@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf9179f-9036-4256-a3a4-b4f5734c453e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/library/validation/Validation_rule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/library/validation/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/library/validation/EmailValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/library/validation/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/library/validation/PhoneValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/library/validation/EmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/library/validation/EmailValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/com/library/validation/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/library/validation/PasswordCheckerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="JUnit.PhoneValidatorTest">
+  <component name="RunManager" selected="JUnit.PasswordCheckerTest">
     <configuration name="Main" type="Application" factoryName="Application">
       <module name="Library" />
       <method v="2">
@@ -112,9 +111,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PhoneValidatorTest" />
-        <item itemvalue="JUnit.EmailValidatorTest" />
         <item itemvalue="JUnit.PasswordCheckerTest" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.PhoneValidatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +128,11 @@
       <workItem from="1632602921095" duration="3125000" />
       <workItem from="1632645274981" duration="1998000" />
       <workItem from="1632671344842" duration="14434000" />
-      <workItem from="1632761275980" duration="6612000" />
+      <workItem from="1632761275980" duration="6944000" />
+      <workItem from="1632773226816" duration="598000" />
+      <workItem from="1633010140831" duration="896000" />
+      <workItem from="1633072577146" duration="245000" />
+      <workItem from="1633117627916" duration="1001000" />
     </task>
     <servers />
   </component>
