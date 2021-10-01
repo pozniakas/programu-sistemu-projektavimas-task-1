@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 public class PasswordChecker {
 	public boolean isValidPassowrd(String password) {
+		if (password==null) return false;
 		if (!checkPasswordSize(password)) return false;
 		if (!chechUppercase(password)) return false;
 		if (!checkSpecialChar(password)) return false;

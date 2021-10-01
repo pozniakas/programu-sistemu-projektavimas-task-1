@@ -6,6 +6,7 @@ import java.util.List;
 
 public class PhoneValidator {
 	public boolean isValidPhone(String phone) {
+		if (phone==null) return false;
 		List<Validation_rule> rules = new ArrayList<>();
 		rules.add(new Validation_rule("+370", 8));
 		for (Validation_rule rule: rules) {

@@ -2,6 +2,7 @@ package com.library.validation;
 
 public class EmailValidator {
 	public boolean isValidEmail(String email) {
+		if (email==null) return false;
 
 		if (counterAt(email)!=1) return false;
 

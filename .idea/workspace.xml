@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1bf9179f-9036-4256-a3a4-b4f5734c453e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/test/com/library/validation/AdditionalTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/library/validation/EmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/library/validation/EmailValidatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/com/library/validation/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/com/library/validation/PasswordCheckerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +48,26 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager" selected="JUnit.PasswordCheckerTest">
+  <component name="RunManager" selected="JUnit.AdditionalTests">
     <configuration name="Main" type="Application" factoryName="Application">
       <module name="Library" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdditionalTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Library" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.library.validation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.library.validation" />
+      <option name="MAIN_CLASS_NAME" value="com.library.validation.AdditionalTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -108,9 +123,11 @@
       <item itemvalue="JUnit.EmailValidatorTest" />
       <item itemvalue="JUnit.PasswordCheckerTest" />
       <item itemvalue="JUnit.PhoneValidatorTest" />
+      <item itemvalue="JUnit.AdditionalTests" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AdditionalTests" />
         <item itemvalue="JUnit.PasswordCheckerTest" />
         <item itemvalue="JUnit.EmailValidatorTest" />
         <item itemvalue="JUnit.PhoneValidatorTest" />
@@ -132,7 +149,7 @@
       <workItem from="1632773226816" duration="598000" />
       <workItem from="1633010140831" duration="896000" />
       <workItem from="1633072577146" duration="245000" />
-      <workItem from="1633117627916" duration="1001000" />
+      <workItem from="1633117627916" duration="2083000" />
     </task>
     <servers />
   </component>
