@@ -1,7 +1,7 @@
 package com.library.validation;
 
 public class EmailValidator {
-	public boolean isValidEmail(String email) {
+	public boolean validate(String email) {
 		/*
 		 * TODO: Implement logic which will validate provided email by these criteria:
 		 * checks if the email has @ symbol, has no invalid , has the correct domain and
