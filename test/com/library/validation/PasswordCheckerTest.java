@@ -10,7 +10,7 @@ class PasswordCheckerTest {
 	PasswordChecker passwordChecker = new PasswordChecker();
 
 	@ParameterizedTest
-	@ValueSource(strings = { "#paswordasA", "SLA-;d#", "čiaBiblioteka;", "_labas123_" })
+	@ValueSource(strings = { "#paswordasA", "SLA-;d#", "čiaBiblioteka;", "_Labas123_" })
 	void testValidPasswordValidation(String password) {
 		assertTrue(passwordChecker.isValidPassowrd(password));
 	}
