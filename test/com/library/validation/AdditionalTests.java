@@ -26,4 +26,9 @@ public class AdditionalTests {
     void testNullPhone (){
         assertFalse(phoneValidator.isValidPhone(null));
     }
+
+    @Test
+    void testWhitoutNamePart (){
+        assertFalse(emailValidator.isValidEmail("@gmail.com"));
+    }
 }
