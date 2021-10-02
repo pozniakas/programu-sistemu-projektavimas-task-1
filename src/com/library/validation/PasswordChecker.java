@@ -1,7 +1,7 @@
 package com.library.validation;
 
 public class PasswordChecker {
-	public boolean isValidPassowrd(String password) {
+	public boolean validate(String password) {
 		/*
 		 * TODO: Implement logic which will validate provided password by these
 		 * criteria: checks if the password is at least 5 symbols long, checks for
