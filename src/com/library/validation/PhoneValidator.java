@@ -2,17 +2,26 @@ package com.library.validation;
 
 import javax.swing.*;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class PhoneValidator {
+	private List<Validation_rule> rules = new ArrayList<Validation_rule>(){{
+		add(new Validation_rule("+370", 8));
+	}};
 	public boolean isValidPhone(String phone) {
 		if (phone==null) return false;
-		List<Validation_rule> rules = new ArrayList<>();
-		rules.add(new Validation_rule("+370", 8));
 		for (Validation_rule rule: rules) {
 			if(checkCase(rule, phone)) return true;
 		}
 		return false;
+	}
+
+	public void addValidationRule(String prefix, int length){
+		if (prefix==null) throw new IllegalArgumentException("Invalid pefix");
+		if (prefix=="") throw new IllegalArgumentException("Invalid pefix");
+		if (length<0) throw new IllegalArgumentException("Invalid length");
+		rules.add(new Validation_rule(prefix, length));
 	}
 
 	public String formatPhonePrefix(String phone) {
