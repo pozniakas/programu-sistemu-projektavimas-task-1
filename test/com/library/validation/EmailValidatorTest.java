@@ -17,7 +17,7 @@ class EmailValidatorTest {
 	}
 
 	@ParameterizedTest
-	@ValueSource(strings = { "moo_n@gmail.com", "e;arth@yahoo.com", "steve@/na.lt", "support @pozniakas.com" })
+	@ValueSource(strings = { "moo_n_@gmail.com", "e;;arth@yahoo.com", "steve@/na.lt", "support @pozniakas.com" })
 	void testEmailWithIlleagalSymbolsValidation(String email) {
 		assertFalse(emailValidator.isValidEmail(email));
 	}
@@ -36,7 +36,7 @@ class EmailValidatorTest {
 
 	@Test
 	void testEmailWithInvalidDomainValidation() {
-		String email = "earth@neegzistuojanti-svetaine.net";
+		String email = "earth@neegzistu?ojanti-svetaine.net";
 
 		assertFalse(emailValidator.isValidEmail(email));
 	}
