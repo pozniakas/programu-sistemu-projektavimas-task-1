@@ -13,30 +13,3 @@ Turbūt klausimas ne tik turbūt kaip galėčiau pagerint, bet ir pagerinau. Su 
 Galėčiau daugiau turbūt pridėti testų, kurie patestuotų logika naudojant ne įprastą konstruktorių (t.y. be parametrų), bet konstruktorių, kuriam gali pats perduoti simbolius, kurie yra nevalidūs ir pnš. - tai padėtų patikrinti, kad logika veikia ne tik su standartiniais validacijos parametrais
 
 P.S. Implementuota logika ir paredaguoti testai yra Pull requestuose (prieš atnaujint kolegos testus pas save, pirma buvo iškeltas pull requestas kolegos repozitorijoje ir buvo kolegos paaprove'intas)
-
-<h1>Library</h1>
-<div>
-1st Laboratory work of Vilnius University student.
-</div>
-<h2>Business requirements</h2>
-
-<h3>
-  PasswordChecker
-</h3>
- - Checks if the password is at least X long<br>
-- Checks for Uppercase characters<br>
-- Checks for a special character (list of special characters must be configured)<br>
-<br>
-<h3>
-  PhoneValidator
-</h3>
-- There are no other characters than numbers
-<br>- If it starts with 8, it changes to +370
-<br>- It is possible to add new validation rules by country (length and prefix)
-<h3>
-  EmailValidator
-</h3>
-- Has @ symbol<br>
-- No invalid characters<br>
-- Has the correct domain and TLD
-
