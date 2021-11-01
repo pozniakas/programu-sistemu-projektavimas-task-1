@@ -16,7 +16,6 @@ public class EmailValidator {
 				&& hasValidTLD(email);
 	}
 
-//	vardas@-weirdsite.lt
 	private boolean hasNoInvalidCharacters(String email) {
 		return INVALID_CHARACTERS.stream().noneMatch(character -> email.contains(character.toString()));
 	}
